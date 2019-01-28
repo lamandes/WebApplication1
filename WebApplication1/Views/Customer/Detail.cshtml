@@ -1,0 +1,20 @@
+﻿
+
+@model WebApplication1.Models.Customer
+@{
+    ViewBag.Title = "Detail";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Customer</h2>
+<table class="table table-­bordered table-hover">
+        <thead>
+            <tr>
+                <th>Customer</th>
+            </tr>
+        </thead>
+        <tbody>
+           <tr><th scope="row">@Model.Name</th></tr>
+        </tbody>
+</table>
+
